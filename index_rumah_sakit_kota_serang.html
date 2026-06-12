@@ -1,29 +1,107 @@
+```html
 <!DOCTYPE html>
 <html lang="id">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dashboard Persebaran Rumah Sakit Kota Serang</title>
+<title>Deskripsi Persebaran Rumah Sakit Kota Serang</title>
+
 <style>
-body{margin:0;font-family:Segoe UI,sans-serif;background:#f4f7fc}
-header{background:#0b4f8a;color:#fff;padding:20px;text-align:center}
-.container{display:flex}
-.sidebar{width:280px;background:#17324d;color:#fff;padding:20px;min-height:100vh}
-.main{flex:1;padding:20px}
-.card{background:#fff;padding:18px;border-radius:10px;margin-bottom:15px;box-shadow:0 2px 8px rgba(0,0,0,.1)}
-h2{color:#0b4f8a}
-p{text-align:justify;line-height:1.7}
+body{
+    margin:0;
+    font-family:'Segoe UI',sans-serif;
+    background:#f4f7fc;
+}
+
+header{
+    background:#0b4f8a;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+.container{
+    display:flex;
+}
+
+.sidebar{
+    width:280px;
+    background:#17324d;
+    color:white;
+    padding:20px;
+    min-height:100vh;
+}
+
+.main{
+    flex:1;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    padding:18px;
+    border-radius:10px;
+    margin-bottom:15px;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+}
+
+h2{
+    color:#0b4f8a;
+}
+
+p{
+    text-align:justify;
+    line-height:1.7;
+}
+
+.navigation{
+    display:flex;
+    justify-content:space-between;
+    margin-top:25px;
+}
+
+.btn-back,
+.btn-next{
+    text-decoration:none;
+    padding:12px 24px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.btn-back{
+    background:white;
+    color:#0b4f8a;
+    border:2px solid #0b4f8a;
+}
+
+.btn-next{
+    background:#0b4f8a;
+    color:white;
+}
+
+.btn-back:hover,
+.btn-next:hover{
+    opacity:0.9;
+}
 </style>
+
 </head>
 <body>
+
 <header>
-<h1>Dashboard WebGIS Persebaran Rumah Sakit Kota Serang</h1>
+<h1>Deskripsi Persebaran Rumah Sakit Kota Serang</h1>
 <p>Analisis Faktor dan Pola Persebaran Fasilitas Kesehatan</p>
 </header>
+
 <div class="container">
+
 <div class="sidebar">
 <h3>Informasi Wilayah</h3>
-<p>Kota Serang merupakan ibu kota Provinsi Banten dan pusat pelayanan pemerintahan, pendidikan, ekonomi, serta kesehatan.</p>
+<p>
+Kota Serang merupakan ibu kota Provinsi Banten dan pusat pelayanan
+pemerintahan, pendidikan, ekonomi, serta kesehatan.
+</p>
+
 <h3>Faktor Persebaran</h3>
 <ul>
 <li>Kepadatan penduduk</li>
@@ -33,16 +111,49 @@ p{text-align:justify;line-height:1.7}
 <li>Kebijakan pemerintah</li>
 </ul>
 </div>
+
 <div class="main">
+
 <div class="card">
 <h2>Pola Sebaran</h2>
-<p>Rumah sakit di Kota Serang cenderung mengelompok pada pusat kota dan koridor jalan utama karena kemudahan akses masyarakat.</p>
+<p>
+Rumah sakit di Kota Serang cenderung mengelompok pada pusat kota dan
+koridor jalan utama karena kemudahan akses masyarakat.
+</p>
 </div>
+
 <div class="card">
 <h2>Analisis Akademik</h2>
-<p>Persebaran rumah sakit di Kota Serang dipengaruhi oleh faktor geografis, sosial, ekonomi, dan infrastruktur. Fasilitas kesehatan lebih banyak ditemukan pada kawasan dengan kepadatan penduduk tinggi karena permintaan pelayanan kesehatan yang besar. Selain itu, aksesibilitas jalan menjadi pertimbangan utama agar pelayanan darurat dapat berlangsung efektif. Sebagai ibu kota provinsi, Kota Serang memiliki fungsi pelayanan regional sehingga keberadaan rumah sakit tidak hanya melayani penduduk kota tetapi juga wilayah sekitarnya. Pola yang terbentuk menunjukkan konsentrasi fasilitas pada wilayah strategis yang memiliki jaringan transportasi baik, aktivitas ekonomi tinggi, dan dukungan sarana perkotaan yang lengkap.</p>
+<p>
+Persebaran rumah sakit di Kota Serang dipengaruhi oleh faktor geografis,
+sosial, ekonomi, dan infrastruktur. Fasilitas kesehatan lebih banyak
+ditemukan pada kawasan dengan kepadatan penduduk tinggi karena
+permintaan pelayanan kesehatan yang besar. Selain itu, aksesibilitas
+jalan menjadi pertimbangan utama agar pelayanan darurat dapat
+berlangsung efektif. Sebagai ibu kota provinsi, Kota Serang memiliki
+fungsi pelayanan regional sehingga keberadaan rumah sakit tidak hanya
+melayani penduduk kota tetapi juga wilayah sekitarnya. Pola yang
+terbentuk menunjukkan konsentrasi fasilitas pada wilayah strategis yang
+memiliki jaringan transportasi baik, aktivitas ekonomi tinggi, dan
+dukungan sarana perkotaan yang lengkap.
+</p>
+</div>
+
+<div class="navigation">
+
+<a href="index.html" class="btn-back">
+← Kembali ke Biodata
+</a>
+
+<a href="index_WebGIS_RS_Kota_Serang.html" class="btn-next">
+Dashboard WebGIS 🗺️ →
+</a>
+
+</div>
+
 </div>
 </div>
-</div>
+
 </body>
 </html>
+```
