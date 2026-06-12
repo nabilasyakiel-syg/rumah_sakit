@@ -1,108 +1,116 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Biodata Mahasiswa</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Mahasiswa</title>
 
-<style>
+    <style>
 
-body{
-    margin:0;
-    padding:0;
-    height:100vh;
-    font-family:Arial, sans-serif;
-    background:linear-gradient(to right, #ffb6d9, #ffffff);
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
+        body{
+            margin:0;
+            padding:0;
+            height:100vh;
+            font-family:Arial, sans-serif;
+            background:linear-gradient(to right, #ffb6d9, #ffffff);
 
-.card{
-    width:800px;
-    background:white;
-    border-radius:25px;
-    padding:30px;
-    display:flex;
-    align-items:center;
-    gap:40px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.2);
-}
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
 
-.foto img{
-    width:250px;
-    height:250px;
-    object-fit:cover;
-    border-radius:20px;
-    border:5px solid pink;
-}
+        .card{
+            width:800px;
+            background:white;
+            border-radius:25px;
+            padding:30px;
 
-.text{
-    text-align:left;
-}
+            display:flex;
+            align-items:center;
+            gap:40px;
 
-.text h1{
-    color:#ff4f9a;
-    margin-bottom:20px;
-}
+            box-shadow:0 5px 15px rgba(0,0,0,0.2);
+        }
 
-.text p{
-    font-size:20px;
-    color:#444;
-    margin:12px 0;
-}
+        .foto img{
+            width:250px;
+            height:250px;
+            object-fit:cover;
 
-.text strong{
-    color:#000;
-}
+            border-radius:20px;
+            border:5px solid pink;
+        }
 
-.btn{
-    display:inline-block;
-    margin-top:20px;
-    padding:12px 25px;
-    background:#ff4f9a;
-    color:white;
-    text-decoration:none;
-    border-radius:10px;
-    font-weight:bold;
-    transition:0.3s;
-}
+        .text{
+            text-align:left;
+        }
 
-.btn:hover{
-    background:#ff2c86;
-}
+        .text h1{
+            color:#ff4f9a;
+            margin-bottom:20px;
+            font-size:50px;
+        }
 
-</style>
+        .text p{
+            font-size:20px;
+            color:#444;
+            margin:12px 0;
+        }
 
+        .text strong{
+            color:#000;
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:25px;
+            padding:12px 25px;
+
+            background:#ff4f9a;
+            color:white;
+
+            text-decoration:none;
+            border-radius:10px;
+            font-weight:bold;
+
+            transition:0.3s;
+        }
+
+        .btn:hover{
+            background:#ff2c86;
+            transform:scale(1.05);
+        }
+
+    </style>
 </head>
 
 <body>
 
-<div class="card">
+    <div class="card">
 
-    <div class="foto">
-        <img src="foto profil.jpeg" alt="Foto Profil">
+        <div class="foto">
+            <img src="foto Profil.jpeg" alt="Foto Profil">
+        </div>
+
+        <div class="text">
+
+            <h1>Biodata Mahasiswa</h1>
+
+            <p><strong>Nama :</strong> Nabilah Nuramalia</p>
+
+            <p><strong>NPM :</strong> 2313034036</p>
+
+            <p><strong>Prodi :</strong> Pendidikan Geografi</p>
+
+            <p><strong>Universitas :</strong> Universitas Lampung</p>
+
+            <a href="index_rumah_sakit_kota_serang.html" class="btn">
+                Lanjut ke Dashboard Rumah Sakit →
+            </a>
+
+        </div>
+
     </div>
-
-    <div class="text">
-
-        <h1>Biodata Mahasiswa</h1>
-
-        <p><strong>Nama :</strong> Nabilah Nuramalia</p>
-
-        <p><strong>NPM :</strong> 2313034036</p>
-
-        <p><strong>Prodi :</strong> Pendidikan Geografi</p>
-
-        <p><strong>Universitas :</strong> Universitas Lampung</p>
-
-        <a href="halaman2.html" class="btn">
-            Lanjut ke Dashboard →
-        </a>
-
-    </div>
-
-</div>
 
 </body>
 </html>
