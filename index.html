@@ -1,100 +1,108 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biodata Mahasiswa</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biodata Mahasiswa</title>
 
-    <style>
+<style>
 
-        body{
-            margin: 0;
-            padding: 0;
-            height: 100vh;
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(to right, #ffb6d9, #ffffff);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 
-            font-family: Arial, sans-serif;
+.card{
+    width:800px;
+    background:white;
+    border-radius:25px;
+    padding:30px;
+    display:flex;
+    align-items:center;
+    gap:40px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
 
-            /* Background gradasi pink putih */
-            background: linear-gradient(to right, #ffb6d9, #ffffff);
+.foto img{
+    width:250px;
+    height:250px;
+    object-fit:cover;
+    border-radius:20px;
+    border:5px solid pink;
+}
 
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+.text{
+    text-align:left;
+}
 
-        .card{
-            width: 800px;
-            background: white;
+.text h1{
+    color:#ff4f9a;
+    margin-bottom:20px;
+}
 
-            border-radius: 25px;
-            padding: 30px;
+.text p{
+    font-size:20px;
+    color:#444;
+    margin:12px 0;
+}
 
-            display: flex;
-            align-items: center;
-            gap: 40px;
+.text strong{
+    color:#000;
+}
 
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-        }
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#ff4f9a;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+    transition:0.3s;
+}
 
-        /* FOTO */
-        .foto img{
-            width: 250px;
-            height: 250px;
+.btn:hover{
+    background:#ff2c86;
+}
 
-            object-fit: cover;
+</style>
 
-            border-radius: 20px;
-            border: 5px solid pink;
-        }
-
-        /* TEKS */
-        .text{
-            text-align: left;
-        }
-
-        .text h1{
-            color: #ff4f9a;
-            margin-bottom: 20px;
-        }
-
-        .text p{
-            font-size: 20px;
-            color: #444;
-            margin: 12px 0;
-        }
-
-        .text strong{
-            color: #000;
-        }
-
-    </style>
 </head>
 
 <body>
 
-    <div class="card">
+<div class="card">
 
-        <!-- FOTO -->
-        <div class="foto">
-            <img src="../Assets/foto profil.jpeg" alt="Foto">
-        </div>
+    <div class="foto">
+        <img src="foto profil.jpeg" alt="Foto Profil">
+    </div>
 
-        <!-- TEKS -->
-        <div class="text">
+    <div class="text">
 
-            <h1>Biodata Mahasiswa</h1>
+        <h1>Biodata Mahasiswa</h1>
 
-            <p><strong>Nama :</strong> Nabilah Nuramalia</p>
+        <p><strong>Nama :</strong> Nabilah Nuramalia</p>
 
-            <p><strong>NPM :</strong> 2313034036</p>
+        <p><strong>NPM :</strong> 2313034036</p>
 
-            <p><strong>Prodi :</strong> Pendidikan Geografi</p>
+        <p><strong>Prodi :</strong> Pendidikan Geografi</p>
 
-            <p><strong>Universitas :</strong> Universitas Lampung</p>
+        <p><strong>Universitas :</strong> Universitas Lampung</p>
 
-        </div>
+        <a href="halaman2.html" class="btn">
+            Lanjut ke Dashboard →
+        </a>
 
     </div>
+
+</div>
 
 </body>
 </html>
