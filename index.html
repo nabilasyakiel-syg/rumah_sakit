@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Mahasiswa</title>
+
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+
+            font-family: Arial, sans-serif;
+
+            /* Background gradasi pink putih */
+            background: linear-gradient(to right, #ffb6d9, #ffffff);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card{
+            width: 800px;
+            background: white;
+
+            border-radius: 25px;
+            padding: 30px;
+
+            display: flex;
+            align-items: center;
+            gap: 40px;
+
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        /* FOTO */
+        .foto img{
+            width: 250px;
+            height: 250px;
+
+            object-fit: cover;
+
+            border-radius: 20px;
+            border: 5px solid pink;
+        }
+
+        /* TEKS */
+        .text{
+            text-align: left;
+        }
+
+        .text h1{
+            color: #ff4f9a;
+            margin-bottom: 20px;
+        }
+
+        .text p{
+            font-size: 20px;
+            color: #444;
+            margin: 12px 0;
+        }
+
+        .text strong{
+            color: #000;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <!-- FOTO -->
+        <div class="foto">
+            <img src="../Assets/foto profil.jpeg" alt="Foto">
+        </div>
+
+        <!-- TEKS -->
+        <div class="text">
+
+            <h1>Biodata Mahasiswa</h1>
+
+            <p><strong>Nama :</strong> Nabilah Nuramalia</p>
+
+            <p><strong>NPM :</strong> 2313034036</p>
+
+            <p><strong>Prodi :</strong> Pendidikan Geografi</p>
+
+            <p><strong>Universitas :</strong> Universitas Lampung</p>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
